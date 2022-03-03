@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../assets/img/Back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    background-attachment: fixed;
+}
+.fundo{
+    background-color: rgba(107, 107, 107, 0.493);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.container{
+    background-color: rgb(46, 47, 51);
+    max-width: 700px;
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+.logo{
+    width: 100px;  
+}
+.topo{
+    display:flex;
+    margin-top: 70px;
+    margin-right: 100px;
+    justify-content: center;
+
+}
+.topo p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:25px;
+    position:absolute;
+    margin-top: 9px;
+    margin-left: 155px;
+   
+    
+}
+.inup ul{
+    
+    margin-top: 40px;
+    margin-left: 140px;
+    display: flex;
+}
+.inup h1{
+
+ color:white;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 18px;
+ margin: 20px;
+ display:inline-block;
+ cursor: pointer;
+ 
+
+}
+.inup h1:hover{
+    border-bottom: 2px solid #1DB954;
+}
+div.input-single{ 
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    position: relative;
+}
+div.input-single .input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+    outline: 0;
+    
+}
+#Nome::placeholder{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.438);
+    font-family: 'Montserrat', sans-serif;
+}
+#Senha::placeholder{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.438);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.checkbox{
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 75px;
+  
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.btn input{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #1DB954;
+    color:#fff;
+    cursor: pointer;
+    
+}
+.styled:hover {
+    background-color: #1db954de;
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+ul{
+    margin-top: 50px;
+    margin-left: 180px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+ul li{
+    list-style: none;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.274);
+    
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.562);
+}
+
+
