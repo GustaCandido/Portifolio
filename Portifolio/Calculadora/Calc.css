@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to top right, #ccffff 0%, #0066ff 100%);
+}
+
+.Container {
+  
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.Container > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: #111;
+  color: #d9d9d9;
+}
+
+.Container > button:hover {
+  background-color: #d9d9d9;
+  color: #111;
+}
+
+.Container > .Operador {
+  
+  background: #6666ff;
+}
+#igual{
+  border-radius: 0 0 20px 0;
+}
+#ponto{
+  border-radius: 0 0  0 20px;
+}
+
+.espaco-2 {
+  grid-column: span 2;
+}
+
+.Container > .Resultado {
+  border-radius: 20px 20px 0 0;
+  grid-column: 1 / -1;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.Container > .Resultado > .Anterior {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+
+.Container > .Resultado > .Atual {
+  color: white;
+  font-size: 2.5rem;
+}

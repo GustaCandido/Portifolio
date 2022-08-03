@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    max-height: 100vh;
+    font-family: arial, sans-serif;
+    background-color: #FFF;
+    
+    
+
+}
+.gb_Ue{
+    width: 24px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav div{
+    
+    margin-top: 5px;
+    padding: 10px;
+    
+    font-size: 13px;
+    
+    color: rgba(0,0,0,.87);
+    
+}
+nav img{
+    border-radius: 50%;
+}
+/* para cima nav */
+/* para baixo perquisa */
+.goxjub{
+    margin-top: 4px;
+    width: 24px;
+}
+
+
+.pes{
+    width: 20px;
+    padding-top:8px ;
+    fill:#9aa0a6;
+}
+.container{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-top: 20vh;
+}
+.pesquisa{
+    
+    align-items: stretch;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    width: 582px;
+    height: 44px;
+
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+ 
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+.pesquisa:hover {
+    box-shadow: 0px 0px 10px -7px #000000
+  }
+
+
+input{
+    width: 447px;
+    height: 34px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
